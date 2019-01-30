@@ -59,8 +59,22 @@ div.card {
   text-align: center;
 }
 
-div.social-media {
+#social-media {
   padding: 1px;
+}
+
+#sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 200px;
+  background-color: #384047;
+  text-align: center;
+}
+
+.content{
+  margin-left: 200px;
 }
 
 div.container {
@@ -113,4 +127,14 @@ td > p, h2 {
   padding: 10px;
   border-radius: 5px;
   color: #EFF;
+}
+
+#sidebar-list {
+  list-style: none;
+  padding-right: 40px;
+  font-size: 40px;
+}
+
+#sidebar-list > li {
+  padding-bottom: 30px;
 }
