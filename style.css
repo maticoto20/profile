@@ -1,0 +1,116 @@
+body {
+  background-color: white;
+  font-family: roboto;
+  color: #666;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  color: #2DC7FF;
+  letter-spacing: 10px
+}
+
+h2 {
+  font-family: 'Montserrat';
+  font-size: 25px;
+  font-weight: 200;
+}
+
+div.profile{
+  margin: 0 auto;
+}
+
+.img-circle{
+  border-radius: 50%;
+  border: 1px solid lightgrey;
+}
+
+.img-big{
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.img-circle:hover {
+  border: 1px solid #2DC7FF;
+}
+
+.img-small {
+  height: 200px;
+  width: auto;
+}
+
+a {
+  color: #AAAAAA;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #2DC7FF;
+}
+
+div.card {
+  background-color: #EAD2AC;
+  border-radius: 4px;
+  padding: 20px 10px;
+  margin: 30px;
+  box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+div.social-media {
+  padding: 1px;
+}
+
+div.container {
+  margin: 0 auto;
+  width: 500;
+}
+
+@media (max-width: 960px) {
+  div.container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 960px) {
+  div.container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 960px) {
+  div.container {
+    width: 300px;
+  }
+}
+
+.list-inline > li {
+  display: inline-grid;
+  padding: 10px 20px;
+}
+
+.list-inline a i {
+  font-size: 30px;
+}
+
+.list-inline a p {
+  margin: 0;
+  padding-top: 5px;
+}
+
+td {
+  padding-top: 20px;
+}
+
+td > p, h2 {
+  padding-left: 20px;
+}
+
+.btn-blue {
+  background-color: #2DC7FF;
+  padding: 10px;
+  border-radius: 5px;
+  color: #EFF;
+}
